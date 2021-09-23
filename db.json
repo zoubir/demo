@@ -7,7 +7,7 @@
       "roomLabel": "Chambre  001",
       "beaconLabel": "Beacon 1",
       "eventDescription": "Augementation de la température",
-      "time : 1616671016000
+      "time" : 1616671016000
     },
     {
       "idIncidents": 112,
@@ -16,7 +16,7 @@
       "roomLabel": "Chambre  002",
       "beaconLabel": "Beacon 3",
       "eventDescription": "Augementation de la température",
-      "time : 1616671016000
+      "time" : 1616671016000
     }
   ],
   "rooms": [
