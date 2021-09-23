@@ -18,23 +18,5 @@
       "eventDescription": "Augementation de la température",
       "time" : "1616671016000"
     }
-  ],
-  "rooms": [
-    {
-    "idRoom": "111",
-    "roomLabel": "Chambre  001",
-    "lat" : "2.6541",
-    "lng" : "36.45213",
-    "location": "Alger",
-    "status" : "OK"
-    },
-    {
-    "idRoom": "222",
-    "roomLabel": "Chambre  002",
-    "lat" : "2.6441",
-    "lng" : "36.46213",
-    "location": "Blida",
-    "status" : "NOK"
-    }
   ]
 }
