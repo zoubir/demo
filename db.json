@@ -1,40 +1,40 @@
 {
   "incidents": [
     {
-      "idIncidents": 111,
-      "idRoom": 111,
-      "idBeacon": 111,
+      "idIncidents": "111",
+      "idRoom": "111",
+      "idBeacon": "111",
       "roomLabel": "Chambre  001",
       "beaconLabel": "Beacon 1",
       "eventDescription": "Augementation de la température",
-      "time" : 1616671016000
+      "time" : "1616671016000"
     },
     {
-      "idIncidents": 112,
-      "idRoom": 112,
-      "idBeacon": 112,
+      "idIncidents": "112",
+      "idRoom": "112",
+      "idBeacon": "112",
       "roomLabel": "Chambre  002",
       "beaconLabel": "Beacon 3",
       "eventDescription": "Augementation de la température",
-      "time" : 1616671016000
+      "time" : "1616671016000"
     }
   ],
   "rooms": [
     {
-    "idRoom": 111,
+    "idRoom": "111",
     "roomLabel": "Chambre  001",
-    "lat" : 2.6541,
-    "lng" : 36.45213,
+    "lat" : "2.6541",
+    "lng" : "36.45213",
     "location": "Alger",
-    "status" : "OK",
+    "status" : "OK"
     },
     {
-    "idRoom": 222,
+    "idRoom": "222",
     "roomLabel": "Chambre  002",
-    "lat" : 2.6441,
-    "lng" : 36.46213,
+    "lat" : "2.6441",
+    "lng" : "36.46213",
     "location": "Blida",
-    "status" : "NOK",
+    "status" : "NOK"
     }
   ]
 }
