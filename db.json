@@ -2,21 +2,11 @@
   "incidents": [
     {
       "idIncidents": "111",
-      "idRoom": "111",
-      "idBeacon": "111",
-      "roomLabel": "Chambre  001",
-      "beaconLabel": "Beacon 1",
-      "eventDescription": "Augementation de la température",
-      "time" : "1616671016000"
+      "idRoom": "111" 
     },
     {
       "idIncidents": "112",
-      "idRoom": "112",
-      "idBeacon": "112",
-      "roomLabel": "Chambre  002",
-      "beaconLabel": "Beacon 3",
-      "eventDescription": "Augementation de la température",
-      "time" : "1616671016000"
+      "idRoom": "112" 
     }
   ]
 }
