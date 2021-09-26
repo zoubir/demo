@@ -10,7 +10,7 @@
           "beaconLabel": "Beacon 1",
           "eventDescription": "Augementation de la température",
           "timeIncident": 1616671016000,
-          "clientId": 7306353057827206000,
+          "clientId": 2177366399,
           "status": "new",
           "idIntevenant": 0 ,
           "nameIntervenant": "",
@@ -25,7 +25,7 @@
           "beaconLabel": "Beacon 2",
           "eventDescription": "Diminution de la température",
           "timeIncident": 1616672016000,
-          "clientId": 7306353057827206000,
+          "clientId": 2177366399,
           "status": "procesing",
           "idIntevenant": 115 ,
           "nameIntervenant": "Zoubir Medjdoub",
@@ -41,7 +41,7 @@
           "beaconLabel": "Beacon 3",
           "eventDescription": "Augementation de la température",
           "timeIncident": 1616674016000,
-          "clientId": 7306353057827206000,
+          "clientId": 2177366399,
           "status": "closed",
           "idIntevenant": 115 ,
           "nameIntervenant": "Zoubir Medjdoub",
@@ -69,6 +69,7 @@
       "lat": 2.6541,
       "lng": 36.45213,
       "location": "Alger",
+      "clientId": 2177366399,
       "status": "OK"
     },
     {
@@ -77,6 +78,7 @@
       "lat": 2.6441,
       "lng": 36.46213,
       "location": "Blida",
+      "clientId": 2177366399,
       "status": "NOK"
     }
   ]
