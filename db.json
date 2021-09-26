@@ -3,9 +3,9 @@
     "_embedded": {
       "incidentsList": [
         {
-          "idIncidents": "111",
-          "idRoom": "111",
-          "idBeacon": "111",
+          "idIncidents": 111,
+          "idRoom": 111,
+          "idBeacon": 111,
           "roomLabel": "Chambre  001",
           "beaconLabel": "Beacon 1",
           "eventDescription": "Augementation de la température",
