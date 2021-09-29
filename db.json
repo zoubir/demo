@@ -11,11 +11,7 @@
           "eventDescription": "Augementation de la température",
           "timeIncident": 1616671016000,
           "clientId": 2177366399,
-          "status": "new",
-          "idIntevenant": 0 ,
-          "nameIntervenant": "",
-          "startIntervention" :0,
-          "endIntervention":0
+          "status": "new"
         },
         {
           "idIncidents": 112,
@@ -26,11 +22,7 @@
           "eventDescription": "Diminution de la température",
           "timeIncident": 1616672016000,
           "clientId": 2177366399,
-          "status": "procesing",
-          "idIntevenant": 115 ,
-          "nameIntervenant": "Zoubir Medjdoub",
-          "startIntervention" :1616673016000,
-          "endIntervention":0
+          "status": "procesing"
         }
         ,
         {
@@ -42,11 +34,7 @@
           "eventDescription": "Augementation de la température",
           "timeIncident": 1616674016000,
           "clientId": 2177366399,
-          "status": "closed",
-          "idIntevenant": 115 ,
-          "nameIntervenant": "Zoubir Medjdoub",
-          "startIntervention" :1616675016000,
-          "endIntervention":1616676016000
+          "status": "closed"
         }
       ]
     },
