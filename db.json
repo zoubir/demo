@@ -15,9 +15,9 @@
         },
         {
           "idIncidents": 112,
-          "idRoom": 6130534000031,
+          "idRoom": 6132296000021,
           "idBeacon": 112,
-          "roomLabel": "Chambre  002",
+          "roomLabel": "Chambre  001",
           "beaconLabel": "Beacon 2",
           "eventDescription": "Diminution de la température",
           "timeIncident": 1616672016000,
@@ -52,22 +52,48 @@
   },
   "rooms": [
     {
-      "idRoom": 111,
-      "roomLabel": "Chambre  001",
+      "idRoom": "rm_id_1",
+      "roomLabel": "rm_name_1",
       "lat": 2.6541,
       "lng": 36.45213,
       "location": "Alger",
       "clientId": 2177366399,
-      "status": "OK"
+      "Gateways" : [ 
+        {
+          "imei" : "gt_imei_1",
+          "label" : "gt_label_1" ,
+          "ibeacons" : [ { "idBeacon" : "bc_id_1" , "beaconLabel" : "bc_name_1" } , { "idBeacon" : "bc_id_2" , "beaconLabel" : "bc_name_2" } ],
+          "lastEvent" : {"imei": "gt_imei_1", "deviceLabel": "Gateways 01","time": 1625566697,"eventCode": 201 ,
+                         "ibeacon": [
+                           {"eventCode": 201,"idBeacon": "bc_id_1","temperature": 4.82,"humidity": 52,"time": 1625566697,"beaconLabel": "bc_name_1"},
+                           {"eventCode": 0,"idBeacon": "bc_id_2","temperature": 4.82,"humidity": 52,"time": 1625566697,"beaconLabel": "bc_name_2"}
+                         
+                         ]}
+        
+        }
+        ]
+      }
     },
     {
-      "idRoom": 122,
-      "roomLabel": "Chambre  002",
-      "lat": 2.6441,
-      "lng": 36.46213,
-      "location": "Blida",
+      "idRoom": "rm_id_2",
+      "roomLabel": "rm_name_2",
+      "lat": 2.6541,
+      "lng": 36.45213,
+      "location": "Skikda",
       "clientId": 2177366399,
-      "status": "NOK"
+      "Gateways" : [ 
+        {
+          "imei" : "gt_imei_2",
+          "label" : "gt_label_2" ,
+          "ibeacons" : [ { "idBeacon" : "bc_id_3" , "beaconLabel" : "bc_name_3" } ],
+          "lastEvent" : {"imei": "gt_imei_2", "deviceLabel": "gt_label_2","time": 1625566697,"eventCode": 202 ,
+                         "ibeacon": [
+                           {"eventCode": 201,"idBeacon": "bc_id_3","temperature": 4.82,"humidity": 52,"time": 1625566697,"beaconLabel": "bc_name_3"}                         
+                         ]}
+        
+        }
+        ]
+      }
     }
   ]
 }
