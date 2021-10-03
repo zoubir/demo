@@ -23,8 +23,7 @@
           "timeIncident": 1616672016000,
           "clientId": 2177366399,
           "status": "procesing"
-        }
-        ,
+        },
         {
           "idIncidents": 113,
           "idRoom": 113,
@@ -58,21 +57,46 @@
       "lng": 36.45213,
       "location": "Alger",
       "clientId": 2177366399,
-      "Gateways" : [ 
+      "Gateways": [
         {
-          "imei" : "gt_imei_1",
-          "label" : "gt_label_1" ,
-          "ibeacons" : [ { "idBeacon" : "bc_id_1" , "beaconLabel" : "bc_name_1" } , { "idBeacon" : "bc_id_2" , "beaconLabel" : "bc_name_2" } ],
-          "lastEvent" : {"imei": "gt_imei_1", "deviceLabel": "Gateways 01","time": 1625566697,"eventCode": 201 ,
-                         "ibeacon": [
-                           {"eventCode": 201,"idBeacon": "bc_id_1","temperature": 4.82,"humidity": 52,"time": 1625566697,"beaconLabel": "bc_name_1"},
-                           {"eventCode": 0,"idBeacon": "bc_id_2","temperature": 4.82,"humidity": 52,"time": 1625566697,"beaconLabel": "bc_name_2"}
-                         
-                         ]}
-        
+          "imei": "gt_imei_1",
+          "label": "gt_label_1",
+          "ibeacons": [
+            {
+              "idBeacon": "bc_id_1",
+              "beaconLabel": "bc_name_1"
+            },
+            {
+              "idBeacon": "bc_id_2",
+              "beaconLabel": "bc_name_2"
+            }
+          ],
+          "lastEvent": {
+            "imei": "gt_imei_1",
+            "deviceLabel": "Gateways 01",
+            "time": 1625566697,
+            "eventCode": 201,
+            "ibeacon": [
+              {
+                "eventCode": 201,
+                "idBeacon": "bc_id_1",
+                "temperature": 4.82,
+                "humidity": 52,
+                "time": 1625566697,
+                "beaconLabel": "bc_name_1"
+              },
+              {
+                "eventCode": 0,
+                "idBeacon": "bc_id_2",
+                "temperature": 4.82,
+                "humidity": 52,
+                "time": 1625566697,
+                "beaconLabel": "bc_name_2"
+              }
+            ]
+          }
         }
-        ]
-      }
+      ]
     },
     {
       "idRoom": "rm_id_2",
@@ -81,19 +105,34 @@
       "lng": 36.45213,
       "location": "Skikda",
       "clientId": 2177366399,
-      "Gateways" : [ 
+      "Gateways": [
         {
-          "imei" : "gt_imei_2",
-          "label" : "gt_label_2" ,
-          "ibeacons" : [ { "idBeacon" : "bc_id_3" , "beaconLabel" : "bc_name_3" } ],
-          "lastEvent" : {"imei": "gt_imei_2", "deviceLabel": "gt_label_2","time": 1625566697,"eventCode": 202 ,
-                         "ibeacon": [
-                           {"eventCode": 201,"idBeacon": "bc_id_3","temperature": 4.82,"humidity": 52,"time": 1625566697,"beaconLabel": "bc_name_3"}                         
-                         ]}
-        
+          "imei": "gt_imei_2",
+          "label": "gt_label_2",
+          "ibeacons": [
+            {
+              "idBeacon": "bc_id_3",
+              "beaconLabel": "bc_name_3"
+            }
+          ],
+          "lastEvent": {
+            "imei": "gt_imei_2",
+            "deviceLabel": "gt_label_2",
+            "time": 1625566697,
+            "eventCode": 202,
+            "ibeacon": [
+              {
+                "eventCode": 201,
+                "idBeacon": "bc_id_3",
+                "temperature": 4.82,
+                "humidity": 52,
+                "time": 1625566697,
+                "beaconLabel": "bc_name_3"
+              }
+            ]
+          }
         }
-        ]
-      }
+      ]
     }
   ]
 }
