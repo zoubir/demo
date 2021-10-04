@@ -64,11 +64,15 @@
           "ibeacons": [
             {
               "idBeacon": "bc_id_1",
-              "beaconLabel": "bc_name_1"
+              "beaconLabel": "bc_name_1",
+              "tempMin":5,
+              "tempMax":22
             },
             {
               "idBeacon": "bc_id_2",
-              "beaconLabel": "bc_name_2"
+              "beaconLabel": "bc_name_2",
+              "tempMin":-10,
+              "tempMax":5
             }
           ],
           "lastEvent": {
