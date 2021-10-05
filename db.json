@@ -147,24 +147,7 @@
     ],
     "lastEvent": null
   }
-],
-  {
-    "label": "chambre_froide2",
-    "lat": "",
-    "lng": "",
-    "address": "alger",
-    "clientId": "7364001534716556644",
-    "gateways": [
-      {
-        "label": "FMB140",
-        "imei": "354017117359196",
-        "ibeacons": null
-      }
-    ],
-    "lastEvent": null
-  }
-] 
-  
+]
   ,"rooms": [
     {
       "idRoom": "rm_id_1",
