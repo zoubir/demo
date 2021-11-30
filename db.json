@@ -49,106 +49,118 @@
       "number": 0
     }
   },
-  "coldrooms" :[
-  {
-    "coldRoomIdStr": "3617624360630707250",
-    "label": "chambre_froide1",
-    "lat": "",
-    "lng": "",
-    "address": "batna",
-    "clientId": "7364001534716556644",
-    "gateways": [
-      {
-        "label": "GATEWAY",
-        "imei": "867372059235064",
-        "ibeacons": [
-          {
-            "label": "BLE1",
-            "macAddress": "cc:85:3a:4b:8e:30",
-            "minTemp": 0,
-            "maxTemp": 0,
-            "gatewayImei": "867372059235064"
-          },
-          {
-            "label": "BLE1",
-            "macAddress": "d4:9e:7c:09:f6:64",
-            "minTemp": 0,
-            "maxTemp": 0,
-            "gatewayImei": "867372059235064"
-          },
-          {
-            "label": "BLE1",
-            "macAddress": "ec:ca:fa:15:40:5d",
-            "minTemp": 0,
-            "maxTemp": 0,
-            "gatewayImei": "867372059235064"
-          }
-        ],
-        "coldRoomIdStr": "3617624360630707250"
-      }
-    ],
-    "lastEvent": {
-      "imei": "867372059235064",
-      "deviceId": "7220451513669530676",
-      "deviceLabel": "GATEWAY",
-      "time": 1633017687,
-      "eventCode": 201,
-      "ibeacon": [
+  "coldrooms": [
+    {
+      "coldRoomIdStr": "7306353930491277410",
+      "label": "MarsLogistique",
+      "lat": null,
+      "lng": null,
+      "address": "Khmiss Khechna",
+      "clientId": "7364001534716556644",
+      "gateways": [
         {
-          "eventCode": 201,
-          "distance": 7.74,
-          "idBeacon": "ec:ca:fa:15:40:5d",
-          "temperature": 26.12,
-          "humidity": 69,
-          "time": 1633017669,
-          "beaconLabel": "batata",
-          "signal": -75,
-          "batteryLevel": 100
-        },
-        {
-          "eventCode": 0,
-          "distance": 1.29,
-          "idBeacon": "d4:9e:7c:09:f6:64",
-          "temperature": 26.33,
-          "humidity": 70,
-          "time": 1633017670,
-          "beaconLabel": "gazouz",
-          "signal": -61,
-          "batteryLevel": 100
-        },
-        {
-          "eventCode": 0,
-          "distance": 14.67,
-          "idBeacon": "cc:85:3a:4b:8e:30",
-          "temperature": 26.28,
-          "humidity": 70,
-          "time": 1633017677,
-          "beaconLabel": "poulet",
-          "signal": -80,
-          "batteryLevel": 100
+          "label": "GATEWAY",
+          "imei": "867372059235064",
+          "ibeacons": [
+            {
+              "label": "Vaccin COVID19",
+              "macAddress": "CC:85:3A:4B:8E:30",
+              "minTemp": 10,
+              "maxTemp": 20,
+              "gatewayImei": "867372059235064"
+            },
+            {
+              "label": "Vaccin SINOVAC",
+              "macAddress": "D4:9E:7C:09:F6:64",
+              "minTemp": 15,
+              "maxTemp": 25,
+              "gatewayImei": "867372059235064"
+            },
+            {
+              "label": "Insuline",
+              "macAddress": "EC:CA:FA:15:40:5D",
+              "minTemp": 25,
+              "maxTemp": 35,
+              "gatewayImei": "867372059235064"
+            },
+            {
+              "label": "Vaccin Astrazeneca",
+              "macAddress": "DC:A7:61:CC:1B:2F",
+              "minTemp": 20,
+              "maxTemp": 30,
+              "gatewayImei": "867372059235064"
+            }
+          ],
+          "coldRoomIdStr": "7306353930491277410"
         }
-      ]
-    }
-  },
-  {
-    "coldRoomIdStr": "3977016439317345377",
-    "label": "chambre_froide2",
-    "lat": "",
-    "lng": "",
-    "address": "alger",
-    "clientId": "7364001534716556644",
-    "gateways": [
-      {
-        "label": "FMB140",
-        "imei": "354017117359196",
-        "ibeacons": [],
-        "coldRoomIdStr": "3977016439317345377"
+      ],
+      "lastEvent": {
+        "imei": "867372059235064",
+        "deviceId": "7220451513669530676",
+        "deviceLabel": "GATEWAY",
+        "time": 1629891426,
+        "eventCode": 201,
+        "ibeacon": [
+          {
+            "eventCode": 201,
+            "distance": 2.15,
+            "idBeacon": "dc:a7:61:cc:1b:2f",
+            "temperature": 27.59,
+            "humidity": 68,
+            "time": 1629891413,
+            "beaconLabel": "test1",
+            "signal": -65,
+            "batteryLevel": 100
+          },
+          {
+            "eventCode": 0,
+            "distance": 1.46,
+            "idBeacon": "ec:ca:fa:15:40:5d",
+            "temperature": 27.57,
+            "humidity": 63,
+            "time": 1629891409,
+            "beaconLabel": "algeofleet2",
+            "signal": -62,
+            "batteryLevel": 100
+          },
+          {
+            "eventCode": 0,
+            "distance": 0.59,
+            "idBeacon": "d4:9e:7c:09:f6:64",
+            "temperature": 27.67,
+            "humidity": 63,
+            "time": 1629891412,
+            "beaconLabel": "chambre3",
+            "signal": -55,
+            "batteryLevel": 100
+          },
+          {
+            "eventCode": 0,
+            "distance": 1.29,
+            "idBeacon": "cc:85:3a:4b:8e:30",
+            "temperature": 27.47,
+            "humidity": 63,
+            "time": 1629891391,
+            "beaconLabel": "test4",
+            "signal": -61,
+            "batteryLevel": 100
+          }
+        ]
+      },
+      "intervention": {
+        "startDate": "22-11-2021 13:54",
+        "startTime": 1637589244000,
+        "endDate": "23-11-2021 14:54",
+        "endTime": 1637679257000,
+        "status": 1,
+        "note": null,
+        "interventionId": "7365182431732917557",
+        "userId": "7004558002442746210",
+        "user": "Cold-chaine "
       }
-    ],
-    "lastEvent": null
-  }
-]
-  ,"rooms": [
+    }
+  ],
+  "rooms": [
     {
       "idRoom": "rm_id_1",
       "roomLabel": "rm_name_1",
@@ -164,14 +176,14 @@
             {
               "idBeacon": "bc_id_1",
               "beaconLabel": "bc_name_1",
-              "tempMin":5,
-              "tempMax":22
+              "tempMin": 5,
+              "tempMax": 22
             },
             {
               "idBeacon": "bc_id_2",
               "beaconLabel": "bc_name_2",
-              "tempMin":-10,
-              "tempMax":5
+              "tempMin": -10,
+              "tempMax": 5
             }
           ],
           "lastEvent": {
