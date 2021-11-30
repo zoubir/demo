@@ -1,0 +1,241 @@
+{
+  "incidents": {
+    "_embedded": {
+      "incidentsList": [
+        {
+          "idIncidents": 111,
+          "idRoom": 6132296000021,
+          "idBeacon": 111,
+          "roomLabel": "Chambre  001",
+          "beaconLabel": "Beacon 1",
+          "eventDescription": "Augementation de la température",
+          "timeIncident": 1616671016000,
+          "clientId": 2177366399,
+          "status": "new"
+        },
+        {
+          "idIncidents": 112,
+          "idRoom": 6132296000021,
+          "idBeacon": 112,
+          "roomLabel": "Chambre  001",
+          "beaconLabel": "Beacon 2",
+          "eventDescription": "Diminution de la température",
+          "timeIncident": 1616672016000,
+          "clientId": 2177366399,
+          "status": "procesing"
+        },
+        {
+          "idIncidents": 113,
+          "idRoom": 113,
+          "idBeacon": 113,
+          "roomLabel": "Chambre  003",
+          "beaconLabel": "Beacon 3",
+          "eventDescription": "Augementation de la température",
+          "timeIncident": 1616674016000,
+          "clientId": 2177366399,
+          "status": "closed"
+        }
+      ]
+    },
+    "_links": {
+      "self": {
+        "href": "http://api.activegps.net:8090/vehicules"
+      }
+    },
+    "page": {
+      "size": 100,
+      "totalElements": 1,
+      "totalPages": 1,
+      "number": 0
+    }
+  },
+  "coldrooms" :[
+  {
+    "coldRoomIdStr": "3617624360630707250",
+    "label": "chambre_froide1",
+    "lat": "",
+    "lng": "",
+    "address": "batna",
+    "clientId": "7364001534716556644",
+    "gateways": [
+      {
+        "label": "GATEWAY",
+        "imei": "867372059235064",
+        "ibeacons": [
+          {
+            "label": "BLE1",
+            "macAddress": "cc:85:3a:4b:8e:30",
+            "minTemp": 0,
+            "maxTemp": 0,
+            "gatewayImei": "867372059235064"
+          },
+          {
+            "label": "BLE1",
+            "macAddress": "d4:9e:7c:09:f6:64",
+            "minTemp": 0,
+            "maxTemp": 0,
+            "gatewayImei": "867372059235064"
+          },
+          {
+            "label": "BLE1",
+            "macAddress": "ec:ca:fa:15:40:5d",
+            "minTemp": 0,
+            "maxTemp": 0,
+            "gatewayImei": "867372059235064"
+          }
+        ],
+        "coldRoomIdStr": "3617624360630707250"
+      }
+    ],
+    "lastEvent": {
+      "imei": "867372059235064",
+      "deviceId": "7220451513669530676",
+      "deviceLabel": "GATEWAY",
+      "time": 1633017687,
+      "eventCode": 201,
+      "ibeacon": [
+        {
+          "eventCode": 201,
+          "distance": 7.74,
+          "idBeacon": "ec:ca:fa:15:40:5d",
+          "temperature": 26.12,
+          "humidity": 69,
+          "time": 1633017669,
+          "beaconLabel": "batata",
+          "signal": -75,
+          "batteryLevel": 100
+        },
+        {
+          "eventCode": 0,
+          "distance": 1.29,
+          "idBeacon": "d4:9e:7c:09:f6:64",
+          "temperature": 26.33,
+          "humidity": 70,
+          "time": 1633017670,
+          "beaconLabel": "gazouz",
+          "signal": -61,
+          "batteryLevel": 100
+        },
+        {
+          "eventCode": 0,
+          "distance": 14.67,
+          "idBeacon": "cc:85:3a:4b:8e:30",
+          "temperature": 26.28,
+          "humidity": 70,
+          "time": 1633017677,
+          "beaconLabel": "poulet",
+          "signal": -80,
+          "batteryLevel": 100
+        }
+      ]
+    }
+  },
+  {
+    "coldRoomIdStr": "3977016439317345377",
+    "label": "chambre_froide2",
+    "lat": "",
+    "lng": "",
+    "address": "alger",
+    "clientId": "7364001534716556644",
+    "gateways": [
+      {
+        "label": "FMB140",
+        "imei": "354017117359196",
+        "ibeacons": [],
+        "coldRoomIdStr": "3977016439317345377"
+      }
+    ],
+    "lastEvent": null
+  }
+]
+  ,"rooms": [
+    {
+      "idRoom": "rm_id_1",
+      "roomLabel": "rm_name_1",
+      "lat": 2.6541,
+      "lng": 36.45213,
+      "location": "Alger",
+      "clientId": 2177366399,
+      "Gateways": [
+        {
+          "imei": "gt_imei_1",
+          "label": "gt_label_1",
+          "ibeacons": [
+            {
+              "idBeacon": "bc_id_1",
+              "beaconLabel": "bc_name_1",
+              "tempMin":5,
+              "tempMax":22
+            },
+            {
+              "idBeacon": "bc_id_2",
+              "beaconLabel": "bc_name_2",
+              "tempMin":-10,
+              "tempMax":5
+            }
+          ],
+          "lastEvent": {
+            "imei": "gt_imei_1",
+            "deviceLabel": "Gateways 01",
+            "time": 1625566697,
+            "eventCode": 201,
+            "ibeacon": [
+              {
+                "eventCode": 201,
+                "idBeacon": "bc_id_1",
+                "temperature": 4.82,
+                "humidity": 52,
+                "time": 1625566697,
+                "beaconLabel": "bc_name_1"
+              },
+              {
+                "eventCode": 0,
+                "idBeacon": "bc_id_2",
+                "temperature": 4.82,
+                "humidity": 52,
+                "time": 1625566697,
+                "beaconLabel": "bc_name_2"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "idRoom": "rm_id_2",
+      "roomLabel": "rm_name_2",
+      "lat": 2.6541,
+      "lng": 36.45213,
+      "location": "Skikda",
+      "clientId": 2177366399,
+      "Gateways": [
+        {
+          "imei": "gt_imei_2",
+          "label": "gt_label_2",
+          "ibeacons": [
+            {
+              "idBeacon": "bc_id_3",
+              "beaconLabel": "bc_name_3"
+            }
+          ],
+          "lastEvent": {
+            "imei": "gt_imei_2",
+            "deviceLabel": "gt_label_2",
+            "time": 1625566697,
+            "eventCode": 202,
+            "ibeacon": [
+              {
+                "eventCode": 202,
+                "idBeacon": "bc_id_3",
+                "temperature": 4.82,
+                "humidity": 52,
+                "time": 1625566697,
+                "beaconLabel": "bc_name_3"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
