@@ -362,5 +362,71 @@
       }
     ]
   }
-]
+],
+  "roomDetails-history":{
+  "coldRoomIdStr": "7306353930491277410",
+  "clientId": "7364001534716556644",
+  "lastEvent": {
+    "imei": "862749051650934",
+    "deviceId": "3702581639834319154",
+    "deviceLabel": null,
+    "time": 1656941432,
+    "eventCode": 201,
+    "ibeacon": [
+      {
+        "eventCode": 201,
+        "distance": 3.59,
+        "idBeacon": "dc:a7:61:cc:1b:2f",
+        "temperature": 25.28,
+        "humidity": 65,
+        "time": 1656940659,
+        "beaconLabel": "chambre1",
+        "signal": -69,
+        "batteryLevel": 100
+      },
+      {
+        "eventCode": 201,
+        "distance": 0.16,
+        "idBeacon": "c0:2f:ed:f6:21:2d",
+        "temperature": 26.19,
+        "humidity": 50,
+        "time": 1656941431,
+        "beaconLabel": "chambrec1",
+        "signal": -45,
+        "batteryLevel": 100
+      }
+    ]
+  },
+  "lastData": {
+    "imei": "862749051650934",
+    "deviceId": "3702581639834319154",
+    "deviceLabel": null,
+    "time": 1657112014,
+    "eventCode": 0,
+    "ibeacon": [
+      {
+        "eventCode": 0,
+        "distance": 14.67,
+        "idBeacon": "dc:a7:61:cc:1b:2f",
+        "temperature": 25.38,
+        "humidity": 65,
+        "time": 1656940889,
+        "beaconLabel": "chambrec1",
+        "signal": -80,
+        "batteryLevel": 100
+      },
+      {
+        "eventCode": 0,
+        "distance": 77.42,
+        "idBeacon": "c0:2f:ed:f6:21:2d",
+        "temperature": 4.36,
+        "humidity": 64,
+        "time": 1657112003,
+        "beaconLabel": "chambrec1",
+        "signal": -93,
+        "batteryLevel": 100
+      }
+    ]
+  }
+}
 }
