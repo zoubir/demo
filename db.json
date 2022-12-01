@@ -179,5 +179,63 @@
       }
     ]
   }
-}
+},  "rooms-detais" : 
+  {
+    "coldRoomIdStr": "4062635237168013625",
+    "label": "MARS LOGISTIQUE xxxx",
+    "lat": null,
+    "lng": null,
+    "address": "Khemiss el khechna",
+    "clientId": "7364001534716556644",
+    "gateways": [
+      {
+        "label": "GATWAY 2",
+        "imei": "860389056514330",
+        "ibeacons": [
+          {
+            "label": "BLE1",
+            "macAddress": "DD:AD:B4:86:4B:93",
+            "minTemp": 0,
+            "maxTemp": 10,
+            "rangeMinTemp": 0,
+            "rangeMaxTemp": 0,
+            "minHum": 0,
+            "maxHum": 0,
+            "rangeMinHum": 0,
+            "rangeMaxHum": 0,
+            "gatewayImei": "860389056514330"
+          },
+          {
+            "label": "BLE1",
+            "macAddress": "F3:A4:C2:6B:D3:A6",
+            "minTemp": 0,
+            "maxTemp": 10,
+            "rangeMinTemp": 0,
+            "rangeMaxTemp": 0,
+            "minHum": 0,
+            "maxHum": 0,
+            "rangeMinHum": 0,
+            "rangeMaxHum": 0,
+            "gatewayImei": "860389056514330"
+          },
+          {
+            "label": "BLE1",
+            "macAddress": "E7:78:85:A9:5E:FC",
+            "minTemp": 0,
+            "maxTemp": 10,
+            "rangeMinTemp": 0,
+            "rangeMaxTemp": 0,
+            "minHum": 0,
+            "maxHum": 0,
+            "rangeMinHum": 0,
+            "rangeMaxHum": 0,
+            "gatewayImei": "860389056514330"
+          }
+        ],
+        "coldRoomIdStr": "4062635237168013625",
+        "lastEvent": null,
+        "lastData": null
+      }
+    ]
+  }
 }
