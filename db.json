@@ -75,20 +75,6 @@
               "minTemp": 15,
               "maxTemp": 25,
               "gatewayImei": "867372059235064"
-            },
-            {
-              "label": "Insuline",
-              "macAddress": "EC:CA:FA:15:40:5D",
-              "minTemp": 25,
-              "maxTemp": 35,
-              "gatewayImei": "867372059235064"
-            },
-            {
-              "label": "Vaccin Astrazeneca",
-              "macAddress": "DC:A7:61:CC:1B:2F",
-              "minTemp": 20,
-              "maxTemp": 30,
-              "gatewayImei": "867372059235064"
             }
           ],
           "coldRoomIdStr": "7306353930491277410"
