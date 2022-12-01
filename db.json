@@ -1,54 +1,5 @@
 {
-  "incidents": {
-    "_embedded": {
-      "incidentsList": [
-        {
-          "idIncidents": 111,
-          "idRoom": 6132296000021,
-          "idBeacon": 111,
-          "roomLabel": "Chambre  001",
-          "beaconLabel": "Beacon 1",
-          "eventDescription": "Augementation de la température",
-          "timeIncident": 1616671016000,
-          "clientId": 2177366399,
-          "status": "new"
-        },
-        {
-          "idIncidents": 112,
-          "idRoom": 6132296000021,
-          "idBeacon": 112,
-          "roomLabel": "Chambre  001",
-          "beaconLabel": "Beacon 2",
-          "eventDescription": "Diminution de la température",
-          "timeIncident": 1616672016000,
-          "clientId": 2177366399,
-          "status": "procesing"
-        },
-        {
-          "idIncidents": 113,
-          "idRoom": 113,
-          "idBeacon": 113,
-          "roomLabel": "Chambre  003",
-          "beaconLabel": "Beacon 3",
-          "eventDescription": "Augementation de la température",
-          "timeIncident": 1616674016000,
-          "clientId": 2177366399,
-          "status": "closed"
-        }
-      ]
-    },
-    "_links": {
-      "self": {
-        "href": "http://api.activegps.net:8090/vehicules"
-      }
-    },
-    "page": {
-      "size": 100,
-      "totalElements": 1,
-      "totalPages": 1,
-      "number": 0
-    }
-  },
+ 
   "coldrooms": [
     {
       "coldRoomIdStr": "7306353930491277410",
