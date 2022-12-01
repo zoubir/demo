@@ -251,116 +251,116 @@
     }
   ],
   "roomsdetais-si" : [
-{
-coldRoomIdStr: "4062635237168013625",
-label: "MARS LOGISTIQUE",
-lat: null,
-lng: null,
-address: "Khemiss el khechna",
-clientId: "7364001534716556644",
-gateways: [
-{
-label: "GATWAY 2",
-imei: "860389056514330",
-ibeacons: [
-{
-label: "BLE1",
-macAddress: "DD:AD:B4:86:4B:93",
-minTemp: 0,
-maxTemp: 10,
-rangeMinTemp: 0,
-rangeMaxTemp: 0,
-minHum: 0,
-maxHum: 0,
-rangeMinHum: 0,
-rangeMaxHum: 0,
-gatewayImei: "860389056514330"
-},
-{
-label: "BLE1",
-macAddress: "F3:A4:C2:6B:D3:A6",
-minTemp: 0,
-maxTemp: 10,
-rangeMinTemp: 0,
-rangeMaxTemp: 0,
-minHum: 0,
-maxHum: 0,
-rangeMinHum: 0,
-rangeMaxHum: 0,
-gatewayImei: "860389056514330"
-},
-{
-label: "BLE1",
-macAddress: "E7:78:85:A9:5E:FC",
-minTemp: 0,
-maxTemp: 10,
-rangeMinTemp: 0,
-rangeMaxTemp: 0,
-minHum: 0,
-maxHum: 0,
-rangeMinHum: 0,
-rangeMaxHum: 0,
-gatewayImei: "860389056514330"
-}
-],
-coldRoomIdStr: "4062635237168013625",
-lastEvent: null,
-lastData: null
-}
-]
-},
-{
-coldRoomIdStr: "7306353930491277410",
-label: "R&D cold test",
-lat: null,
-lng: null,
-address: "Bureau",
-clientId: "7364001534716556644",
-gateways: [
-{
-label: "gateway-test-algeofleet",
-imei: "862749051650934",
-ibeacons: [
-{
-label: "BLE1",
-macAddress: "DC:A7:61:CC:1B:2F",
-minTemp: 15,
-maxTemp: 25,
-rangeMinTemp: 4,
-rangeMaxTemp: 8,
-minHum: 50,
-maxHum: 70,
-rangeMinHum: 5,
-rangeMaxHum: 10,
-gatewayImei: "862749051650934"
-},
-{
-label: "BLE1",
-macAddress: "C0:2F:ED:F6:21:2D",
-minTemp: 2,
-maxTemp: 8,
-rangeMinTemp: 10,
-rangeMaxTemp: 10,
-minHum: 0,
-maxHum: 0,
-rangeMinHum: 0,
-rangeMaxHum: 0,
-gatewayImei: "862749051650934"
-}
-],
-coldRoomIdStr: "7306353930491277410",
-lastEvent: null,
-lastData: null
-},
-{
-label: "GATEWAY",
-imei: null,
-ibeacons: [ ],
-coldRoomIdStr: "7306353930491277410",
-lastEvent: null,
-lastData: null
-}
-]
-}
+  {
+    "coldRoomIdStr": "4062635237168013625",
+    "label": "MARS LOGISTIQUE",
+    "lat": null,
+    "lng": null,
+    "address": "Khemiss el khechna",
+    "clientId": "7364001534716556644",
+    "gateways": [
+      {
+        "label": "GATWAY 2",
+        "imei": "860389056514330",
+        "ibeacons": [
+          {
+            "label": "BLE1",
+            "macAddress": "DD:AD:B4:86:4B:93",
+            "minTemp": 0,
+            "maxTemp": 10,
+            "rangeMinTemp": 0,
+            "rangeMaxTemp": 0,
+            "minHum": 0,
+            "maxHum": 0,
+            "rangeMinHum": 0,
+            "rangeMaxHum": 0,
+            "gatewayImei": "860389056514330"
+          },
+          {
+            "label": "BLE1",
+            "macAddress": "F3:A4:C2:6B:D3:A6",
+            "minTemp": 0,
+            "maxTemp": 10,
+            "rangeMinTemp": 0,
+            "rangeMaxTemp": 0,
+            "minHum": 0,
+            "maxHum": 0,
+            "rangeMinHum": 0,
+            "rangeMaxHum": 0,
+            "gatewayImei": "860389056514330"
+          },
+          {
+            "label": "BLE1",
+            "macAddress": "E7:78:85:A9:5E:FC",
+            "minTemp": 0,
+            "maxTemp": 10,
+            "rangeMinTemp": 0,
+            "rangeMaxTemp": 0,
+            "minHum": 0,
+            "maxHum": 0,
+            "rangeMinHum": 0,
+            "rangeMaxHum": 0,
+            "gatewayImei": "860389056514330"
+          }
+        ],
+        "coldRoomIdStr": "4062635237168013625",
+        "lastEvent": null,
+        "lastData": null
+      }
+    ]
+  },
+  {
+    "coldRoomIdStr": "7306353930491277410",
+    "label": "R&D cold test",
+    "lat": null,
+    "lng": null,
+    "address": "Bureau",
+    "clientId": "7364001534716556644",
+    "gateways": [
+      {
+        "label": "gateway-test-algeofleet",
+        "imei": "862749051650934",
+        "ibeacons": [
+          {
+            "label": "BLE1",
+            "macAddress": "DC:A7:61:CC:1B:2F",
+            "minTemp": 15,
+            "maxTemp": 25,
+            "rangeMinTemp": 4,
+            "rangeMaxTemp": 8,
+            "minHum": 50,
+            "maxHum": 70,
+            "rangeMinHum": 5,
+            "rangeMaxHum": 10,
+            "gatewayImei": "862749051650934"
+          },
+          {
+            "label": "BLE1",
+            "macAddress": "C0:2F:ED:F6:21:2D",
+            "minTemp": 2,
+            "maxTemp": 8,
+            "rangeMinTemp": 10,
+            "rangeMaxTemp": 10,
+            "minHum": 0,
+            "maxHum": 0,
+            "rangeMinHum": 0,
+            "rangeMaxHum": 0,
+            "gatewayImei": "862749051650934"
+          }
+        ],
+        "coldRoomIdStr": "7306353930491277410",
+        "lastEvent": null,
+        "lastData": null
+      },
+      {
+        "label": "GATEWAY",
+        "imei": null,
+        "ibeacons": [],
+        "coldRoomIdStr": "7306353930491277410",
+        "lastEvent": null,
+        "lastData": null
+      }
+    ]
+  }
 ]
 }
